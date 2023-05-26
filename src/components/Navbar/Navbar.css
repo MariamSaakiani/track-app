@@ -1,0 +1,66 @@
+nav{
+    z-index: 10;
+    margin: 18px 71px;
+    display: flex;
+    background-color: transparent;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0);
+    
+}
+
+nav #navlogo{
+    display: flex;
+    align-items: center;
+    gap: 17px;
+}
+
+nav .track{
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 700;
+    font-size: 16px;
+}
+
+nav #menu{
+    display: flex;
+    flex-direction: column;
+}
+
+nav ul{
+    list-style: none;   
+    display: flex; 
+    gap: 105px;
+}
+
+nav ul li a{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000;
+    
+}
+
+nav .autorizarion{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+nav .autorizarion a{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000;
+    
+
+}
+
+nav .autorizarion #getstarted{
+   
+    background: #DBF301;
+    border-radius: 10px;
+    padding: 16px 14px;
+
+}

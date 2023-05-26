@@ -1,0 +1,61 @@
+
+
+/* #features .wrapper h2{
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 400;
+    font-size: 24px;
+    color: #000;
+    text-align: center;
+} */
+
+#features .wrapper .features-grid{
+    /* margin-top: 104px; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 5px;
+
+    
+}
+
+
+
+#features .wrapper .features-grid h3{
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 500;
+    font-size: 21px;
+    color: #000;
+    text-align: center;
+}
+#features .wrapper .features-grid p{
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 400;
+    font-size: 16px;
+    color: #000;
+    text-align: center;
+}
+
+#features .wrapper .features-grid .card{
+display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  /* margin-top: 144px; */
+  border: 1px solid rgba(167, 161, 161, 0.48);
+  border-radius: 15px;
+transition: all 400ms ease;
+background: #fff;
+
+  
+}
+#features .wrapper .features-grid .card:hover{
+    transform: scale(1.03);
+    background: #e8f1da;
+}
+
+#features .wrapper .features-grid img{
+    display: block;
+    margin: 0 auto;
+    margin-top: 142px;
+}

@@ -1,0 +1,114 @@
+#pricing{
+    margin-bottom: 102px;
+}
+#pricing .wrapper{
+    display: flex;
+    flex-direction: row;
+    gap: 42px;
+    max-width: 1284px;
+    margin: 0 auto;
+    margin-top: 239px;
+}
+
+#pricing .txt-pricing{
+    width: 550px;
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 600;
+    font-size: 30px;
+    color: black;
+}
+
+#pricing .price-card{
+    display: flex;
+    flex-direction: row;
+    gap: 66px;  
+}
+
+#pricing .price-card .card{
+    border-radius: 12px;
+    border: 1px solid #E5EAF1;
+    width: 318px;
+    height: 476px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center;
+}
+
+#pricing .price-card .card #hh2{
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 700;
+    font-size: 21px;
+    margin-top: 31px;
+}
+
+#pricing .price-card .card #hh3{
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 3px;
+}
+
+#pricing .price-card .card #hh4{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 35px;
+    margin-top: 23px;
+}
+
+#pricing .price-card .card #monthly{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+}
+
+#pricing .price-card .card #hh5{
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 51px;
+    line-height: 3;
+}
+
+#pricing .price-card .card #but-white{
+    padding: 16px 24px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    width: 200px;
+    color: #000;
+    background: white;
+    border: none;
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--skyblue);
+    margin-top: 30px;
+
+}
+
+#pricing .price-card .card #but-blue{
+    padding: 16px 24px;
+    background: var(--skyblue);
+    border-radius: 8px;
+    width: 200px;
+    color: #000;
+    border: none;
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 600;
+    font-size: 16px;
+    color: #fff;
+    margin-top: 30px;
+
+}
+
+#pricing .wrapper #blue{
+    background: var(--skyblue);
+    color: #fff;
+}
+
+#pricing .wrapper #white{
+    background: #fff;
+    color: #000;
+}
+

@@ -1,0 +1,121 @@
+header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url("../../assets/mainbg.png");
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+
+}
+
+header .section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+}
+
+header .section .bigtxt{
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 800;
+    font-size: 58px;
+    text-align: center;
+    margin: 0px auto;
+    margin-top: 239px;
+}
+
+header .section .smalltxt{
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    margin: 0px auto;
+    margin-top: 36px;
+}
+
+header .section .header-btn{
+    margin: 0px auto;
+    margin-top: 36px;
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+header .section .header-btn a{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000;
+}
+
+header .section  #getstart-header-btn{
+
+    background: #DBF301;
+    border: 1px solid #DBF301;
+    border-radius: 10px;
+    /* margin: 14x 20px; */
+    padding: 14px 30px;
+
+}
+header .section  #getstart-header-btn:hover{
+    border: 1px solid #DBF301;
+    background-color: #fff;
+   
+}
+
+header .section #demo-btn{
+    border: 1px solid #DBF301;
+    border-radius: 10px;
+    padding: 14px 30px;
+
+}
+
+header .section #demo-btn:hover{
+    background: #DBF301;
+    border: 1px solid #DBF301;
+
+
+}
+
+header .wrapper{
+    position: relative;
+}
+
+header .wrapper .done{
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+    padding: 0;
+    margin-top: 200px;
+    margin-bottom: 0px;
+
+    
+}
+header .wrapper #done-img{
+    position: absolute; 
+    right: 116px;
+    width: 86px;
+    height: 86px;
+    
+
+
+}
+
+header .wrapper .sponsors{
+    padding-top: 95px;
+    padding-bottom: 276px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+    margin: 0px auto;
+}
+
+header .wrapper .sponsors #airbnb{
+     width: 164px;
+    height: 51px;;
+}
+
+

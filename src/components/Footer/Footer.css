@@ -1,0 +1,61 @@
+footer{
+    z-index: 10;
+    margin: 0;
+    display: flex;
+    background-color: transparent;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--bluish);
+    padding: 108px 121px;
+    
+}
+
+footer #navlogo{
+    display: flex;
+    align-items: center;
+    gap: 17px;
+}
+
+footer .track{
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+}
+
+footer #menu{
+    display: flex;
+    flex-direction: column;
+}
+
+footer ul{
+    list-style: none;   
+    display: flex; 
+    gap: 105px;
+}
+
+footer ul li a{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    
+}
+
+footer .social{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+footer .social a{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000;
+
+}
+
+
